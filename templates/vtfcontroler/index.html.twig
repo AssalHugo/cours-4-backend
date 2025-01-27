@@ -1,1 +1,7 @@
 <h1>VTFControler</h1>
+
+<ul>
+    {% for personne in personnes %}
+        <li>{{ personne.nom }} {{ personne.prenom }}</li>
+    {% endfor %}
+</ul>
